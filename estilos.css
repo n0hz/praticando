@@ -1,0 +1,81 @@
+html,
+body {
+  width: 1280px;
+  height: 720px;
+}
+body {
+  margin: 0 auto;
+}
+.wrapper {
+  width: 1280px;
+  height: 720px;
+  background: #202020;
+}
+.content {
+  width: 55%;
+  float: left;
+  margin: 10px;
+}
+.sidebar {
+  width: 280px;
+  float: left;
+  background: #808080;
+  padding: 10px;
+}
+.column {
+  width: 680px;
+  float: left;
+  background: grey;
+  border: 1px solid #606060;
+}
+.block {
+  padding: 10px;
+  width: 660px;
+  height: 100px;
+  background: blue;
+  display: block;
+  color: #909090;
+}
+.block-odd {
+  background: #202020;
+}
+.block-even {
+  background: #101010;
+}
+.article--image {
+    float: left;
+    padding-right: 10px;
+}
+.link {
+    vertical-align: middle;
+    cursor: pointer;
+    color: #000000;
+    text-decoration: none;
+    color: yellow;
+}
+.link--alt {
+  color:#909090;
+}
+.article-rank {
+  position: relative;
+  float: right;
+}
+.menu-btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: bolder;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100px;
+  background-color: #808080;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
