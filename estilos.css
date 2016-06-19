@@ -2,6 +2,13 @@
     -webkit-box-sizing: border-box;
 }
 
+h1, h2 {
+    margin: 0;
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: inherit;
+}
+
 body {
     background: #101010;
     display: flex;
